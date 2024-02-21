@@ -40,3 +40,8 @@ variable "private-subnets" {
   }
 
 }
+
+variable "cidr" {
+  type    = string
+  default = "0.0.0.0/0"
+}
